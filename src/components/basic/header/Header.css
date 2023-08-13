@@ -1,0 +1,48 @@
+.Header{
+    width: 100%;
+    height: 80px;
+    background: var(--header);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchDiv{
+    position: absolute;
+    top: 0;right: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background: #8A8A8A;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
+
+input::-webkit-input-placeholder {
+    color: var(--text);
+}
+
+.Search button {
+    /* position: absolute; 
+    top: 0;
+    right: 0px; */
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: var(--mainRed);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.Search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}

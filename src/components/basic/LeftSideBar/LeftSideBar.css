@@ -1,0 +1,70 @@
+.LeftSideBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    background: rgb(68, 68, 68);
+}
+
+.Logo{
+    width: 100%;
+    height: 80px;
+}
+
+.Profile{
+    background: rgb(43, 43, 43);
+    border-radius:10px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.Profile .Avatar{
+    width: 45px;
+    height: 45px;
+    background: var(--text);
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.Profile .Name{
+    color: var(--text);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.LeftSideBarContainer{
+    background: rgb(43, 43, 43);
+    border-radius:10px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.LeftSideBarButton{
+    background: #636363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.LeftSideBarButton button{
+    color: var(--text);
+    background: none;
+    font-size: 18px;
+}
+
+.LeftSideBarButton:last-child{
+    margin-bottom: 0px;
+}

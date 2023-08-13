@@ -1,0 +1,32 @@
+[
+    {
+        "id":0,
+        "title":"Новинки кино",
+        "link":"/new-films"
+    },
+    {
+        "id":1,
+        "title":"Популярное",
+        "link":"/popular"
+    },
+    {
+        "id":2,
+        "title":"Рецензии",
+        "link":"/reviews"
+    },
+    {
+        "id":3,
+        "title":"Жанры",
+        "link":"/janres"
+    },
+    {
+        "id":4,
+        "title":"Подписки",
+        "link":"/subs"
+    },
+    {
+        "id":5,
+        "title":"Хочу посмотреть",
+        "link":"/favorite"
+    }
+]
